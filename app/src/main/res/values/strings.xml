@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">12_Jul_HW</string>
+    <string name="enterHeader">Вход</string>
+    <string name="welcomeMessage">Добро пожаловать!</string>
+    <string name="entryRequirements">Выполните вход или зарегестрируйтесь</string>
+    <string name="enterEmailHint">Введите вашу почту</string>
+    <string name="enterPasswordHint">Введите пароль</string>
+    <string name="signIn">Войти</string>
+    <string name="forgotPasswordString">Забыли пароль?</string>
+    <string name="forgotPasswordLink">Нажмите сюда</string>
+</resources>
