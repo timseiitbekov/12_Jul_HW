@@ -9,7 +9,6 @@ import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
-import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -39,9 +38,10 @@ class MainActivity : AppCompatActivity() {
     private fun openSuccessLoginLayoutWithDelay(errorMessageText: TextView) {
         errorMessageText.text = "Вы успешно зарегестрировались"
         errorMessageText.setTextColor(getColor(R.color.green))
-        findViewById<LinearLayout>(R.id.entries).visibility = View.INVISIBLE
-        findViewById<LinearLayout>(R.id.someInfoText).visibility = View.INVISIBLE
-        findViewById<LinearLayout>(R.id.enterText).visibility = View.INVISIBLE
+
+        findViewById<View>(R.id.entries).visibility = View.INVISIBLE
+        findViewById<View>(R.id.someInfoText).visibility = View.INVISIBLE
+        findViewById<View>(R.id.enterText).visibility = View.INVISIBLE
     }
 
     private fun validateLoginCredentialsOnSignInButtonClick(
